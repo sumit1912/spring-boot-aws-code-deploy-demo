@@ -19,7 +19,7 @@ phases:
       - echo `ls build/libs`
 artifacts:
   files:
-    - build/libs/aws-code-deploy-demo.jar
+    - build/libs/aws-code-deploy-demo-0.0.1-SNAPSHOT.jar
     - scripts/*.sh
     - appspec.yml
   discard-paths: yes
