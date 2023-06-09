@@ -6,9 +6,9 @@ phases:
       java: corretto17
 #    commands:
 #      - echo Nothing to do in the install phase...
-#  pre_build:
-#    commands:
-#      - echo Nothing to do in the pre_build phase...
+  pre_build:
+    commands:
+      - chmod +x gradlew
   build:
     commands:
       - echo Build started on `date`
