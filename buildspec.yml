@@ -14,9 +14,9 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - echo ls
-      - echo ls build
-      - echo ls build/libs
+      - echo `ls`
+      - echo `ls build`
+      - echo `ls build/libs`
 artifacts:
   files:
     - build/libs/aws-code-deploy-demo.jar
