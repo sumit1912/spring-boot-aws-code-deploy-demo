@@ -20,39 +20,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-//buildscript {
-//	ext {
-//		springBootVersion = "2.6.6"
-//	}
-//	repositories {
-//		mavenCentral()
-//	}
-//	dependencies {
-//		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-//	}
-//}
-//
-////group = 'com.sha'
-////version = '0.0.1-SNAPSHOT'
-////sourceCompatibility = '11'
-//
-//apply plugin: "io.spring.dependency-management"
-//apply plugin: "java"
-//apply plugin: "org.springframework.boot"
-//
-//repositories {
-//	maven {
-//		url = uri("https://eu.artifactory.conti.de/artifactory/common_maven_v/")
-//	}
-//}
-//
-//dependencies {
-//	implementation 'org.springframework.boot:spring-boot-starter-web'
-//	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-//	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-//}
-//
-////tasks.named('test') {
-////	useJUnitPlatform()
-////}
