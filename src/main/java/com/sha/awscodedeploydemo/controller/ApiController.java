@@ -9,6 +9,6 @@ public class ApiController {
 
     @GetMapping("api/health")
     public ResponseEntity<?> healthCheck() {
-        return ResponseEntity.ok("Works Successfully!!");
+        return ResponseEntity.ok("Works Successfully!!!");
     }
 }
